@@ -1,9 +1,13 @@
+import IndexPage from 'pages/IndexPage.vue'
+import DojoKun from 'pages/DojoKun.vue'
+
 const routes = [
   {
     path: '/',
     component: () => import('layouts/MainLayout.vue'),
     children: [
-      { path: '', component: () => import('pages/IndexPage.vue') },
+      { path: '', component: IndexPage },
+      { path: 'dojo-kun', component: DojoKun },
     ],
   },
 

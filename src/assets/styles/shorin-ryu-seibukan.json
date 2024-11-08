@@ -1,0 +1,246 @@
+{
+  "dojo_kun": [
+    {
+      "phrase": "Hitotsu! Jinkaku kansei ni tsutomeru koto",
+      "english": "Seek perfection of character"
+    },
+    {
+      "phrase": "Hitotsu! Makoto no michi wo mamoru koto",
+      "english": "Defend the paths of truth"
+    },
+    {
+      "phrase": "Hitotsu! Doryoku no seishin wo yashinau koto",
+      "english": "Foster the spirit of effort"
+    },
+    {
+      "phrase": "Hitotsu! Reigi wo omonzuru koto",
+      "english": "Honour the principles of etiquette"
+    },
+    {
+      "phrase": "Hitotsu! Kekki no yu wo imashimuru koto",
+      "english": "Guard against impetuous courage"
+    }
+  ],
+  "moves": {
+    "ashi_barai": {
+      "name": "Ashi Barai",
+      "description": "Leg sweep"
+    },
+    "ashi_sukui": {
+      "name": "Ashi Sukui",
+      "description": "Leg scoop"
+    },
+    "ashi_uke": {
+      "name": "Ashi Uke",
+      "description": "Leg block"
+    },
+    "chudan_tsuki": {
+      "name": "Chudan Tsuki",
+      "description": "Mid level thrust"
+    },
+    "otoshi_uchi": {
+      "name": "Otoshi Uchi",
+      "description": "Dropping block"
+    },
+    "chudan_uke": {
+      "name": "Chudan Uke",
+      "description": "Outside middle block"
+    },
+    "fukkin_no_undo": {
+      "name": "Fukkin no Undo",
+      "description": "Core conditioning"
+    },
+    "gedan_barai_chudan_tsuki_chudan_uke": {
+      "name": "Gedan Barai Chudan Tsuki Chudan Uke",
+      "description": "Low sweep, mid thrust, mid block"
+    },
+    "gedan_barai_chudan_tsuki": {
+      "name": "Gedan Barai Chudan Tsuki",
+      "description": "Low sweep, mid thrust"
+    },
+    "gedan_tsuki": {
+      "name": "Gedan Tsuki",
+      "description": "Low thrust"
+    },
+    "gyaku_tsuki": {
+      "name": "Gyaku Tsuki",
+      "description": "Reverse punch"
+    },
+    "hasami_uchi": {
+      "name": "Hasami Uchi",
+      "description": "Scissor strike"
+    },
+    "hiji_kaiten": {
+      "name": "Hiji Kaiten",
+      "description": "Elbow rotations"
+    },
+    "hiza_age_no_undo": {
+      "name": "Hiza Age no Undo",
+      "description": "Knee raise"
+    },
+    "hiza_ow_ryouhou_ni_hirogeru": {
+      "name": "Hiza ow Ryouhou ni Hirogeru",
+      "description": "Spread knees"
+    },
+    "jodan_uke": {
+      "name": "Jodan Uke",
+      "description": "Rising block"
+    },
+    "josokutei_o_tsukeru": {
+      "name": "Josokutei o Tsukeru",
+      "description": "Rotate on ball of foot"
+    },
+    "kake_uke_tsuki": {
+      "name": "Kake Uke Tsuki",
+      "description": "Hook block strike"
+    },
+    "kake_uke": {
+      "name": "Kake Uke",
+      "description": "Hook block"
+    },
+    "karada_wo_mae_ni_taosu": {
+      "name": "Karada wo Mae ni Taosu",
+      "description": "Forward Bend"
+    },
+    "kata_no_hogushi": {
+      "name": "Kata no Hogushi",
+      "description": "Shoulder rotation"
+    },
+    "kata_no_sutoretchi": {
+      "name": "Kata no Sutoretchi",
+      "description": "Shoulder stretch"
+    },
+    "kobushi_no_ude_tate_fuse": {
+      "name": "Kobushi no Ude Tate Fuse",
+      "description": "Knuckle pushups"
+    },
+    "koshi_no_kaiten": {
+      "name": "Koshi no Kaiten",
+      "description": "Trunk twist"
+    },
+    "koshi_o_mawasu": {
+      "name": "Koshi o Mawasu",
+      "description": "Hip circles"
+    },
+    "kubi_no_undo": {
+      "name": "Kubi no Undo",
+      "description": "Neck twist"
+    },
+    "kubi_o_mawasu": {
+      "name": "Kubi o Mawasu",
+      "description": "Neck rotation"
+    },
+    "kubi_o_nobasu": {
+      "name": "Kubi o Nobasu",
+      "description": "Neck stretch"
+    },
+    "kusshin": {
+      "name": "Kusshin",
+      "description": "Leg stretch"
+    },
+    "mae_geri_no_undo": {
+      "name": "Mae Geri no Undo",
+      "description": "Front kick exercise"
+    },
+    "mae_geri": {
+      "name": "Mae Geri",
+      "description": "Front Kick"
+    },
+    "mawashi_geri_no_undo": {
+      "name": "Mawashi Geri no Undo",
+      "description": "Roundhouse kick exercise"
+    },
+    "mawashi_geri": {
+      "name": "Mawashi Geri",
+      "description": "Roundhouse kick"
+    },
+    "renzoku_tsuki": {
+      "name": "Renzoku Tsuki",
+      "description": "Continuous Thrust"
+    },
+    "renzoku_tsuki_geri": {
+      "name": "Renzoku Tsuki Geri",
+      "description": "Punch punch kick punch"
+    },
+    "shinkokyu_no_undo": {
+      "name": "Shinkokyu no Undo",
+      "description": "Deep breathing exercise"
+    },
+    "shuto_uchi": {
+      "name": "Shuto Uchi",
+      "description": "Sword hand strike"
+    },
+    "shuto_uke": {
+      "name": "Shuto Uke",
+      "description": "Sword hand block"
+    },
+    "sokuto_o_tsukeru": {
+      "name": "Sokuto o Tsukeru",
+      "description": "Ankle rotation"
+    },
+    "sukuwatto_no_undo": {
+      "name": "Sukuwatto no Undo",
+      "description": "Squats"
+    },
+    "tekubi_kaiten": {
+      "name": "Tekubi Kaiten",
+      "description": "Wrist rotations"
+    },
+    "uchi_uke": {
+      "name": "Uchi Uke",
+      "description": "Inside block"
+    },
+    "uke_kogeki": {
+      "name": "Uke Kogeki",
+      "description": "Leg sweep & thrust"
+    },
+    "uraken": {
+      "name": "Uraken",
+      "description": "Double backfist"
+    },
+    "ushiro_geri_no_undo": {
+      "name": "Ushiro Geri no Undo",
+      "description": "Back kick exercise"
+    },
+    "ushiro_geri": {
+      "name": "Ushiro Geri",
+      "description": "Back kick"
+    },
+    "ushiro_hineri_tsuki": {
+      "name": "Ushiro Hineri Tsuki",
+      "description": "Back twisting punch"
+    },
+    "yoko_geri_no_undo": {
+      "name": "Yoko Geri no Undo",
+      "description": "Side kick exercise"
+    },
+    "yoko_geri": {
+      "name": "Yoko Geri",
+      "description": "Side kick"
+    },
+    "yoko_hineri_tsuki": {
+      "name": "Yoko Hineri Tsuki",
+      "description": "Side twist punch"
+    },
+    "yon_kai_uchi": {
+      "name": "Yon Kai Uchi",
+      "description": "Four strikes"
+    },
+    "yubi_de_arukimasu": {
+      "name": "Yubi de Arukimasu",
+      "description": "Toe walking"
+    },
+    "yubi_o_ageru": {
+      "name": "Yubi o Ageru",
+      "description": "Toe raises"
+    },
+    "yubisaki_no_ude_tate_fuse": {
+      "name": "Yubisaki no Ude Tate Fuse",
+      "description": "Fingertip pushups"
+    },
+    "yohokeikin_sutorecchi": {
+      "name": "Yohokeikin Sutorecchi",
+      "description": "Side bends"
+    }
+  }
+}
