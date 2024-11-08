@@ -1,4 +1,5 @@
 import IndexPage from 'pages/IndexPage.vue'
+import KihonRenshu from 'pages/KihonRenshu.vue'
 import DojoKun from 'pages/DojoKun.vue'
 
 const routes = [
@@ -8,6 +9,7 @@ const routes = [
     children: [
       { path: '', component: IndexPage },
       { path: 'dojo-kun', component: DojoKun },
+      { path: 'kihon-renshu', component: KihonRenshu },
     ],
   },
 
