@@ -1,27 +1,34 @@
 <template>
-  <q-layout view="lHh Lpr lFf">
+  <q-layout view="lHh Lpr lFf" class="bg-blue-grey-1">
     <q-header elevated>
-      <q-toolbar>
+      <q-toolbar class="bg-black">
         <q-btn
           flat
           dense
           round
           icon="menu"
           aria-label="Menu"
+          class="q-mr-sm"
           @click="toggleLeftDrawer"
         />
 
+        <q-separator vertical dark inset />
+
         <q-btn
           flat
+          stretch
           to="/"
         >
           Karate Training
         </q-btn>
-        <!-- <q-toolbar-title>
-          <router-link to="/">
-            Karate Training
-          </router-link>
-        </q-toolbar-title> -->
+
+        <q-space />
+
+        <q-img
+          src="~assets/img/shorin-ryu-seibukan-logo-clear.png"
+          fit="scale-down"
+          width="45px"
+        />
       </q-toolbar>
     </q-header>
 

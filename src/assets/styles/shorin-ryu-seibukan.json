@@ -1,4 +1,31 @@
 {
+  "sections": [
+    {
+      "title": "Kihon Quiz",
+      "color": "yellow"
+    },
+    {
+      "title": "Kihon Renshu",
+      "color": "orange"
+    },
+    {
+      "title": "Zenhin Kotai",
+      "color": "green"
+    },
+    {
+      "title": "Kata",
+      "color": "blue"
+    },
+    {
+      "title": "Ippon Kumite",
+      "color": "brown"
+    },
+    {
+      "title": "Dojo Kun",
+      "color": "black",
+      "path": "/dojo-kun"
+    }
+  ],
   "dojo_kun": [
     {
       "phrase": "Hitotsu! Jinkaku kansei ni tsutomeru koto",
