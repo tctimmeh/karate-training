@@ -1,6 +1,8 @@
 <template>
-  <q-page padding>
-    <div class="text-h4 text-center">Hello, World!</div>
+  <q-page>
+    <div class="text-h4 text-center">
+      Coming Soon!
+    </div>
   </q-page>
 </template>
 

@@ -18,15 +18,19 @@
         </q-btn>
 
         <div class="text-center q-mt-xl text-body2 text-weight-light">
-          Practice the Kihon Renshu from start to finish.
+          Execute all junbi undo and kihon renshu from start to finish.
         </div>
       </div>
     </template>
 
     <template v-else-if="setComplete">
-      <div class="column items-center q-gutter-xl q-pa-xl">
-        <div class="text-center text-h4">
-          You did it!!
+      <div class="column items-center q-gutter-xl q-pa-xl text-center">
+        <div class="text-h4">
+          Great Job!
+        </div>
+
+        <div class="text-subtitle1 text-weight-light">
+          You have reached the end of kihon renshu.
         </div>
 
         <q-btn
@@ -35,26 +39,19 @@
           push
           to="/"
         >
-          Home
+          Return Home
         </q-btn>
       </div>
     </template>
 
     <template v-else>
       <div
-        class="move-panel self-stretch q-pa-md text-center"
+        class="move-panel self-stretch q-pa-md text-center column"
         @click.stop="nextMove"
         v-touch-swipe.right="prevMove"
         v-touch-swipe.left="nextMove"
       >
-        <div class="q-mt-xl">
-          <div class="text-h4 q-mb-lg">
-            {{ currentMove.name }}
-          </div>
-          <div class="text-subtitle1 text-weight-light">
-            {{ currentMove.description }}
-          </div>
-        </div>
+        <move-info :move="currentMove" class="col-grow"/>
       </div>
     </template>
   </q-page>
@@ -63,6 +60,7 @@
 <script setup>
 import { ref, computed } from 'vue'
 import styleData from 'assets/styles/shorin-ryu-seibukan.json'
+import MoveInfo from 'components/MoveInfo.vue'
 
 const currentMoveIndex = ref(-1)
 const setComplete = ref(false)
@@ -92,7 +90,7 @@ function prevMove() {
 }
 </script>
 
-<style>
+<style lang="scss" scoped>
 .move-panel {
   min-height: inherit;
 }

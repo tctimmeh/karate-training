@@ -1,1 +1,36 @@
 // app global css in SCSS form
+.bg-belt {
+  height: 4rem;
+  background-size: 200px;
+  background-position-y: -5px;
+  text-shadow: 2px 2px black;
+  color: white;
+}
+
+.bg-belt-white {
+  background-image: url(src/assets/img/white-belt-texture.png);
+}
+.bg-belt-yellow {
+  background-image: url(src/assets/img/yellow-belt-texture.png);
+}
+.bg-belt-orange {
+  background-image: url(src/assets/img/orange-belt-texture.png);
+}
+.bg-belt-green {
+  background-image: url(src/assets/img/green-belt-texture.png);
+}
+.bg-belt-blue {
+  background-image: url(src/assets/img/blue-belt-texture.png);
+}
+.bg-belt-purple {
+  background-image: url(src/assets/img/purple-belt-texture.png);
+}
+.bg-belt-red {
+  background-image: url(src/assets/img/red-belt-texture.png);
+}
+.bg-belt-brown {
+  background-image: url(src/assets/img/brown-belt-texture.png);
+}
+.bg-belt-black {
+  background-image: url(src/assets/img/black-belt-texture.png);
+}

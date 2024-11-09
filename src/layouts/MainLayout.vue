@@ -26,7 +26,6 @@
 
         <q-img
           src="~assets/img/shorin-ryu-seibukan-logo-clear.png"
-          fit="scale-down"
           width="45px"
         />
       </q-toolbar>
@@ -38,17 +37,29 @@
       bordered
     >
       <q-list>
-        <q-item-label
-          header
-        >
-          Essential Links
+        <q-item-label header>
+          Karate Training
         </q-item-label>
 
-        <EssentialLink
-          v-for="link in linksList"
-          :key="link.title"
-          v-bind="link"
-        />
+        <q-item
+          v-for="section in styleData.sections"
+          :key="section.title"
+          class="bg-belt"
+          :class="[`bg-belt-${section.color}`]"
+          clickable
+          :to="section.path"
+        >
+          <q-item-section
+            v-if="section.icon"
+            avatar
+          >
+            <q-icon :name="section.icon" />
+          </q-item-section>
+
+          <q-item-section>
+            <q-item-label class="text-weight-bold">{{ section.title }}</q-item-label>
+          </q-item-section>
+        </q-item>
       </q-list>
     </q-drawer>
 
@@ -60,7 +71,7 @@
 
 <script setup>
 import { ref } from 'vue';
-import EssentialLink from 'components/EssentialLink.vue';
+import styleData from 'assets/styles/shorin-ryu-seibukan.json'
 
 defineOptions({
   name: 'MainLayout',

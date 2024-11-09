@@ -1,8 +1,14 @@
 {
   "sections": [
     {
+      "title": "Index",
+      "color": "white",
+      "path": "/index"
+    },
+    {
       "title": "Kihon Quiz",
-      "color": "yellow"
+      "color": "yellow",
+      "path": "/quiz"
     },
     {
       "title": "Kihon Renshu",
@@ -11,15 +17,18 @@
     },
     {
       "title": "Zenhin Kotai",
-      "color": "green"
+      "color": "green",
+      "path": "/zenshin-kotai"
     },
     {
       "title": "Kata",
-      "color": "blue"
+      "color": "blue",
+      "path": "/kata"
     },
     {
       "title": "Ippon Kumite",
-      "color": "brown"
+      "color": "brown",
+      "path": "/ippon-kumite"
     },
     {
       "title": "Dojo Kun",
