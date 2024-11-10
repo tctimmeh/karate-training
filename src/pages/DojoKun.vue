@@ -8,7 +8,7 @@
     </div>
 
     <div
-      v-for="stanza in styleData.dojo_kun"
+      v-for="stanza in styleData.dojoKun"
       :key="stanza.phrase"
       class="text-center q-mb-md"
     >
@@ -23,7 +23,9 @@
 </template>
 
 <script setup>
-import styleData from 'assets/styles/shorin-ryu-seibukan.json'
+import { useStyleStore } from 'stores/style'
+
+const styleData = useStyleStore()
 </script>
 
 <style>

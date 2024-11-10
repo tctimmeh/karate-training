@@ -14,7 +14,10 @@
 </template>
 
 <script setup>
-import styleData from 'assets/styles/shorin-ryu-seibukan.json'
+// import styleData from 'assets/styles/shorin-ryu-seibukan/shorin-ryu-seibukan.json'
+import { useStyleStore } from 'stores/style'
+
+const styleData = useStyleStore()
 
 defineOptions({
   name: 'IndexPage',

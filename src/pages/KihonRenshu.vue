@@ -1,11 +1,20 @@
 <template>
   <q-page>
-    <template v-if="currentMove > -1">
+    <template v-if="currentMoveIndex == -1">
       <div
         class="column items-center"
       >
-        <div class="text-center text-h4 q-my-xl">
+        <div class="text-center text-h4 q-mt-xl q-mb-md">
           Kihon Renshu
+        </div>
+
+        <div class="q-mb-lg text-body2">
+          <div>
+            First learn the forms and movements of karate
+          </div>
+          <div class="text-right">
+          - Chotoku Kyan
+          </div>
         </div>
 
         <q-btn
@@ -46,12 +55,12 @@
 
     <template v-else>
       <div
-        class="move-panel self-stretch q-pa-md text-center column"
+        class="move-panel self-stretch q-pa-md column"
         @click.stop="nextMove"
         v-touch-swipe.right="prevMove"
         v-touch-swipe.left="nextMove"
       >
-        <move-info :move="currentMove" class="col-grow"/>
+        <move-info :move="currentMove" class="col-grow" center />
       </div>
     </template>
   </q-page>
@@ -59,8 +68,10 @@
 
 <script setup>
 import { ref, computed } from 'vue'
-import styleData from 'assets/styles/shorin-ryu-seibukan.json'
 import MoveInfo from 'components/MoveInfo.vue'
+import { useStyleStore } from 'stores/style'
+
+const styleData = useStyleStore()
 
 const currentMoveIndex = ref(-1)
 const setComplete = ref(false)
@@ -69,7 +80,7 @@ const currentMove = computed(() => {
   if (currentMoveIndex.value < 0) {
     return null
   }
-  const moveId = styleData.kihon_renshu[currentMoveIndex.value]
+  const moveId = styleData.kihonRenshu[currentMoveIndex.value]
   return styleData.moves[moveId]
 })
 
@@ -80,7 +91,7 @@ function resetQuiz() {
 
 function nextMove() {
   currentMoveIndex.value += 1
-  if (currentMoveIndex.value >= styleData.kihon_renshu.length) {
+  if (currentMoveIndex.value >= styleData.kihonRenshu.length) {
     setComplete.value = true
   }
 }

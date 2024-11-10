@@ -61,223 +61,388 @@
   "moves": {
     "ashi_barai": {
       "name": "Ashi Barai",
-      "description": "Leg sweep"
+      "description": "Leg sweep",
+      "tags": [
+        "kihon"
+      ]
     },
     "ashi_sukui": {
       "name": "Ashi Sukui",
-      "description": "Leg scoop"
+      "description": "Leg scoop",
+      "tags": [
+        "kihon"
+      ]
     },
     "ashi_uke": {
       "name": "Ashi Uke",
-      "description": "Leg block"
+      "description": "Leg block",
+      "tags": [
+        "kihon"
+      ]
     },
     "chudan_tsuki": {
       "name": "Chudan Tsuki",
-      "description": "Mid level thrust"
+      "description": "Mid level thrust",
+      "tags": [
+        "kihon"
+      ]
     },
     "otoshi_uchi": {
       "name": "Otoshi Uchi",
-      "description": "Dropping block"
+      "description": "Dropping block",
+      "tags": [
+        "kihon"
+      ]
     },
     "chudan_uke": {
       "name": "Chudan Uke",
-      "description": "Outside middle block"
+      "description": "Outside middle block",
+      "tags": [
+        "kihon"
+      ]
     },
     "fukkin_no_undo": {
       "name": "Fukkin no Undo",
-      "description": "Core conditioning"
+      "description": "Core conditioning",
+      "tags": [
+        "kihon"
+      ]
     },
     "gedan_barai_chudan_tsuki_chudan_uke": {
       "name": "Gedan Barai Chudan Tsuki Chudan Uke",
-      "description": "Low sweep, mid thrust, mid block"
+      "description": "Low sweep, mid thrust, mid block",
+      "tags": [
+        "kihon"
+      ]
     },
     "gedan_barai_chudan_tsuki": {
       "name": "Gedan Barai Chudan Tsuki",
-      "description": "Low sweep, mid thrust"
+      "description": "Low sweep, mid thrust",
+      "tags": [
+        "kihon"
+      ]
     },
     "gedan_tsuki": {
       "name": "Gedan Tsuki",
-      "description": "Low thrust"
+      "description": "Low thrust",
+      "tags": [
+        "kihon"
+      ]
     },
     "gyaku_tsuki": {
       "name": "Gyaku Tsuki",
-      "description": "Reverse punch"
+      "description": "Reverse punch",
+      "tags": [
+        "kihon"
+      ]
     },
     "hasami_uchi": {
       "name": "Hasami Uchi",
-      "description": "Scissor strike"
+      "description": "Scissor strike",
+      "tags": [
+        "kihon"
+      ]
     },
     "hiji_kaiten": {
       "name": "Hiji Kaiten",
-      "description": "Elbow rotations"
+      "description": "Elbow rotations",
+      "tags": [
+        "junbi undo"
+      ]
     },
     "hiza_age_no_undo": {
       "name": "Hiza Age no Undo",
-      "description": "Knee raise"
+      "description": "Knee raise",
+      "tags": [
+        "kihon"
+      ]
     },
     "hiza_ow_ryouhou_ni_hirogeru": {
       "name": "Hiza ow Ryouhou ni Hirogeru",
-      "description": "Spread knees"
+      "description": "Spread knees",
+      "tags": [
+        "kihon"
+      ]
     },
     "jodan_uke": {
       "name": "Jodan Uke",
-      "description": "Rising block"
+      "description": "Rising block",
+      "tags": [
+        "kihon"
+      ]
     },
     "josokutei_o_tsukeru": {
       "name": "Josokutei o Tsukeru",
-      "description": "Rotate on ball of foot"
+      "description": "Rotate on ball of foot",
+      "tags": [
+        "junbi undo"
+      ]
     },
     "kake_uke_tsuki": {
       "name": "Kake Uke Tsuki",
-      "description": "Hook block strike"
+      "description": "Hook block strike",
+      "tags": [
+        "kihon"
+      ]
     },
     "kake_uke": {
       "name": "Kake Uke",
-      "description": "Hook block"
+      "description": "Hook block",
+      "tags": [
+        "kihon"
+      ]
     },
     "karada_wo_mae_ni_taosu": {
       "name": "Karada wo Mae ni Taosu",
-      "description": "Forward Bend"
+      "description": "Forward Bend",
+      "tags": [
+        "kihon"
+      ]
     },
     "kata_no_hogushi": {
       "name": "Kata no Hogushi",
-      "description": "Shoulder rotation"
+      "description": "Shoulder rotation",
+      "tags": [
+        "kihon"
+      ]
     },
     "kata_no_sutoretchi": {
       "name": "Kata no Sutoretchi",
-      "description": "Shoulder stretch"
+      "description": "Shoulder stretch",
+      "tags": [
+        "kihon"
+      ]
     },
     "kobushi_no_ude_tate_fuse": {
       "name": "Kobushi no Ude Tate Fuse",
-      "description": "Knuckle pushups"
+      "description": "Knuckle pushups",
+      "tags": [
+        "kihon"
+      ]
     },
     "koshi_no_kaiten": {
       "name": "Koshi no Kaiten",
-      "description": "Trunk twist"
+      "description": "Trunk twist",
+      "tags": [
+        "kihon"
+      ]
     },
     "koshi_o_mawasu": {
       "name": "Koshi o Mawasu",
-      "description": "Hip circles"
+      "description": "Hip circles",
+      "tags": [
+        "junbi undo"
+      ]
     },
     "kubi_no_undo": {
       "name": "Kubi no Undo",
-      "description": "Neck twist"
+      "description": "Neck twist",
+      "tags": [
+        "junbi undo"
+      ]
     },
     "kubi_o_mawasu": {
       "name": "Kubi o Mawasu",
-      "description": "Neck rotation"
+      "description": "Neck rotation",
+      "tags": [
+        "junbi undo"
+      ]
     },
     "kubi_o_nobasu": {
       "name": "Kubi o Nobasu",
-      "description": "Neck stretch"
+      "description": "Neck stretch",
+      "tags": [
+        "junbi undo"
+      ]
     },
     "kusshin": {
       "name": "Kusshin",
-      "description": "Leg stretch"
+      "description": "Leg stretch",
+      "tags": [
+        "kihon"
+      ]
     },
     "mae_geri_no_undo": {
       "name": "Mae Geri no Undo",
-      "description": "Front kick exercise"
+      "description": "Front kick exercise",
+      "tags": [
+        "kihon"
+      ]
     },
     "mae_geri": {
       "name": "Mae Geri",
-      "description": "Front Kick"
+      "description": "Front Kick",
+      "tags": [
+        "kihon"
+      ]
     },
     "mawashi_geri_no_undo": {
       "name": "Mawashi Geri no Undo",
-      "description": "Roundhouse kick exercise"
+      "description": "Roundhouse kick exercise",
+      "tags": [
+        "kihon"
+      ]
     },
     "mawashi_geri": {
       "name": "Mawashi Geri",
-      "description": "Roundhouse kick"
+      "description": "Roundhouse kick",
+      "tags": [
+        "kihon"
+      ]
     },
     "renzoku_tsuki": {
       "name": "Renzoku Tsuki",
-      "description": "Continuous Thrust"
+      "description": "Continuous Thrust",
+      "tags": [
+        "kihon"
+      ]
     },
     "renzoku_tsuki_geri": {
       "name": "Renzoku Tsuki Geri",
-      "description": "Punch punch kick punch"
+      "description": "Punch punch kick punch",
+      "tags": [
+        "kihon"
+      ]
     },
     "shinkokyu_no_undo": {
       "name": "Shinkokyu no Undo",
-      "description": "Deep breathing exercise"
+      "description": "Deep breathing exercise",
+      "tags": [
+        "kihon"
+      ]
     },
     "shuto_uchi": {
       "name": "Shuto Uchi",
-      "description": "Sword hand strike"
+      "description": "Sword hand strike",
+      "tags": [
+        "kihon"
+      ]
     },
     "shuto_uke": {
       "name": "Shuto Uke",
-      "description": "Sword hand block"
+      "description": "Sword hand block",
+      "tags": [
+        "kihon"
+      ]
     },
     "sokuto_o_tsukeru": {
       "name": "Sokuto o Tsukeru",
-      "description": "Ankle rotation"
+      "description": "Ankle rotation",
+      "tags": [
+        "junbi undo"
+      ]
     },
     "sukuwatto_no_undo": {
       "name": "Sukuwatto no Undo",
-      "description": "Squats"
+      "description": "Squats",
+      "tags": [
+        "kihon"
+      ]
     },
     "tekubi_kaiten": {
       "name": "Tekubi Kaiten",
-      "description": "Wrist rotations"
+      "description": "Wrist rotations",
+      "tags": [
+        "junbi undo"
+      ]
     },
     "uchi_uke": {
       "name": "Uchi Uke",
-      "description": "Inside block"
+      "description": "Inside block",
+      "tags": [
+        "kihon"
+      ]
     },
     "uke_kogeki": {
       "name": "Uke Kogeki",
-      "description": "Leg sweep & thrust"
+      "description": "Leg sweep & thrust",
+      "tags": [
+        "kihon"
+      ]
     },
     "uraken": {
       "name": "Uraken",
-      "description": "Double backfist"
+      "description": "Double backfist",
+      "tags": [
+        "kihon"
+      ]
     },
     "ushiro_geri_no_undo": {
       "name": "Ushiro Geri no Undo",
-      "description": "Back kick exercise"
+      "description": "Back kick exercise",
+      "tags": [
+        "kihon"
+      ]
     },
     "ushiro_geri": {
       "name": "Ushiro Geri",
-      "description": "Back kick"
+      "description": "Back kick",
+      "tags": [
+        "kihon"
+      ]
     },
     "ushiro_hineri_tsuki": {
       "name": "Ushiro Hineri Tsuki",
-      "description": "Back twisting punch"
+      "description": "Back twisting punch",
+      "tags": [
+        "kihon"
+      ]
     },
     "yoko_geri_no_undo": {
       "name": "Yoko Geri no Undo",
-      "description": "Side kick exercise"
+      "description": "Side kick exercise",
+      "tags": [
+        "kihon"
+      ]
     },
     "yoko_geri": {
       "name": "Yoko Geri",
-      "description": "Side kick"
+      "description": "Side kick",
+      "tags": [
+        "kihon"
+      ]
     },
     "yoko_hineri_tsuki": {
       "name": "Yoko Hineri Tsuki",
-      "description": "Side twist punch"
+      "description": "Side twist punch",
+      "tags": [
+        "kihon"
+      ]
     },
     "yon_kai_uchi": {
       "name": "Yon Kai Uchi",
-      "description": "Four strikes"
+      "description": "Four strikes",
+      "tags": [
+        "kihon"
+      ]
     },
     "yubi_de_arukimasu": {
       "name": "Yubi de Arukimasu",
-      "description": "Toe walking"
+      "description": "Toe walking",
+      "tags": [
+        "junbi undo"
+      ]
     },
     "yubi_o_ageru": {
       "name": "Yubi o Ageru",
-      "description": "Toe raises"
+      "description": "Toe raises",
+      "tags": [
+        "junbi undo"
+      ]
     },
     "yubisaki_no_ude_tate_fuse": {
       "name": "Yubisaki no Ude Tate Fuse",
-      "description": "Fingertip pushups"
+      "description": "Fingertip pushups",
+      "tags": [
+        "kihon"
+      ]
     },
     "yohokeikin_sutorecchi": {
       "name": "Yohokeikin Sutorecchi",
-      "description": "Side bends"
+      "description": "Side bends",
+      "tags": [
+        "junbi undo"
+      ]
     }
   },
   "kihon_renshu": [

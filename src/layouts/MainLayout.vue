@@ -71,7 +71,7 @@
 
 <script setup>
 import { ref } from 'vue';
-import styleData from 'assets/styles/shorin-ryu-seibukan.json'
+import styleData from 'assets/styles/shorin-ryu-seibukan/shorin-ryu-seibukan.json'
 
 defineOptions({
   name: 'MainLayout',

@@ -1,7 +1,8 @@
 import ComingSoonPage from 'pages/ComingSoon.vue'
 import HomePage from 'pages/HomePage.vue'
 import IndexPage from 'pages/IndexPage.vue'
-import KihonRenshu from 'pages/KihonRenshu.vue'
+import KihonQuizPage from 'pages/KihonQuiz.vue'
+import KihonRenshuPage from 'pages/KihonRenshu.vue'
 import DojoKun from 'pages/DojoKun.vue'
 
 const routes = [
@@ -11,8 +12,8 @@ const routes = [
     children: [
       { path: '', component: HomePage },
       { path: 'index', component: IndexPage },
-      { path: 'quiz', component: ComingSoonPage },
-      { path: 'kihon-renshu', component: KihonRenshu },
+      { path: 'quiz', component: KihonQuizPage },
+      { path: 'kihon-renshu', component: KihonRenshuPage },
       { path: 'zenshin-kotai', component: ComingSoonPage },
       { path: 'kata', component: ComingSoonPage },
       { path: 'ippon-kumite', component: ComingSoonPage },
