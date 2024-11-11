@@ -25,7 +25,7 @@
         <q-space />
 
         <q-img
-          src="~assets/img/shorin-ryu-seibukan-logo-clear.png"
+          :src="styleLogoPath"
           width="45px"
         />
       </q-toolbar>
@@ -70,24 +70,20 @@
 </template>
 
 <script setup>
-import { ref } from 'vue';
-import styleData from 'assets/styles/shorin-ryu-seibukan/shorin-ryu-seibukan.json'
+import { ref, computed } from 'vue';
+import { useStyleStore } from 'stores/style'
+
+const styleData = useStyleStore()
 
 defineOptions({
   name: 'MainLayout',
 });
-
-const linksList = [
-  {
-    title: 'Dojo Kun',
-    icon: 'school',
-    link: '/dojo-kun',
-  },
-];
 
 const leftDrawerOpen = ref(false);
 
 function toggleLeftDrawer() {
   leftDrawerOpen.value = !leftDrawerOpen.value;
 }
+
+const styleLogoPath = computed(() => `${styleData.imagePath}/${styleData.info.logo}`)
 </script>

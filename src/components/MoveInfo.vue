@@ -3,8 +3,14 @@
     <q-card-section :class="titleClasses">
       {{ move.name }}
     </q-card-section>
+
     <q-card-section :class="descriptionClasses" class="text-weight-light">
       {{ move.description }}
+    </q-card-section>
+
+    <q-card-section>
+      <q-img
+      />
     </q-card-section>
   </q-card>
 </template>

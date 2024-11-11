@@ -1,14 +1,17 @@
-import { ref } from 'vue'
+import { ref, computed } from 'vue'
 import { defineStore } from 'pinia'
-import styleData from 'assets/styles/shorin-ryu-seibukan/shorin-ryu-seibukan.json'
+import styleData from 'assets/styles/shorin-ryu-seibukan.json'
 
 export const useStyleStore = defineStore('style', () => {
+  const info = ref(styleData.info)
   const sections = ref(styleData.sections)
   const moves = ref(styleData.moves)
   const dojoKun = ref(styleData.dojo_kun)
   const kihonRenshu = ref(styleData.kihon_renshu)
 
+  const imagePath = computed(() => `/public/styles/${info.value.key}/img`)
+
   return {
-    styleData, sections, moves, dojoKun, kihonRenshu,
+    styleData, info, sections, moves, dojoKun, kihonRenshu, imagePath,
   }
 })

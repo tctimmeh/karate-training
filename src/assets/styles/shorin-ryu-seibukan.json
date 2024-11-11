@@ -1,4 +1,10 @@
 {
+  "info": {
+    "name_1": "Shorin-Ryu",
+    "name_2": "Seibukan",
+    "key": "shorin-ryu-seibukan",
+    "logo": "shorin-ryu-seibukan-logo-clear.png"
+  },
   "sections": [
     {
       "title": "Index",

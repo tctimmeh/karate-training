@@ -3,7 +3,8 @@ import HomePage from 'pages/HomePage.vue'
 import IndexPage from 'pages/IndexPage.vue'
 import KihonQuizPage from 'pages/KihonQuiz.vue'
 import KihonRenshuPage from 'pages/KihonRenshu.vue'
-import DojoKun from 'pages/DojoKun.vue'
+import DojoKunPage from 'pages/DojoKun.vue'
+import MovePage from 'pages/MovePage.vue'
 
 const routes = [
   {
@@ -17,7 +18,8 @@ const routes = [
       { path: 'zenshin-kotai', component: ComingSoonPage },
       { path: 'kata', component: ComingSoonPage },
       { path: 'ippon-kumite', component: ComingSoonPage },
-      { path: 'dojo-kun', component: DojoKun },
+      { path: 'dojo-kun', component: DojoKunPage },
+      { path: 'moves/:moveId', component: MovePage },
     ],
   },
 
