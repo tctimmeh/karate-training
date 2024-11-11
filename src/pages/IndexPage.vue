@@ -1,13 +1,26 @@
 <template>
   <q-page padding>
-    <div>
+    <!-- <div>
       <move-info
         v-for="move in filteredMoves"
         :key="move.name"
         :move="move"
         list
       />
-    </div>
+    </div> -->
+    <q-list separator>
+      <q-item
+        v-for="move in filteredMoves"
+        :key="move.key"
+        :to="`/moves/${move.key}`"
+        clickable
+      >
+        <q-item-section>
+          <q-item-label class="text-weight-bold">{{ move.name }}</q-item-label>
+          <q-item-label caption>{{ move.description }}</q-item-label>
+        </q-item-section>
+      </q-item>
+    </q-list>
   </q-page>
 </template>
 

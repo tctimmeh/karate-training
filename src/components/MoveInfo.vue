@@ -8,15 +8,15 @@
       {{ move.description }}
     </q-card-section>
 
-    <q-card-section>
-      <q-img
-      />
-    </q-card-section>
+    <!-- <q-img :src="coverImagePath" fit="contain" /> -->
   </q-card>
 </template>
 
 <script setup>
 import { computed } from 'vue'
+import { useStyleStore } from 'stores/style'
+
+const styleData = useStyleStore()
 
 const props = defineProps({
   move: {
@@ -56,6 +56,9 @@ const descriptionClasses = computed(() => {
   }
   return classes
 })
+
+const coverImagePath = computed(() => `${styleData.imagePath}/moves/${props.move.key}/${props.move.coverImage}.jpeg`)
+// const coverImagePath = computed(() => `${styleData.imagePath}/${styleData.info.logo}`)
 </script>
 
 <style>
