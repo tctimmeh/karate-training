@@ -80,23 +80,15 @@ const imageSetName = ref()
 const imageSet = ref()
 const imageNum = ref()
 
-let ignoreImageSetChange = false
-
 watch(() => props.move, () => {
-  console.log('move')
   imageSetName.value = props.move.coverImage?.set
   imageSet.value = props.move.imageSets?.[imageSetName?.value]
   imageNum.value = props.move.coverImage?.num
-  ignoreImageSetChange = true
 }, { immediate: true })
 
 watch(imageSetName, async (newSetName) => {
-  console.log('set', ignoreImageSetChange)
-  if (!ignoreImageSetChange) {
-    imageSet.value = props.move.imageSets?.[newSetName]
-    imageNum.value = 1
-  }
-  ignoreImageSetChange = false
+  imageSet.value = props.move.imageSets?.[newSetName]
+  imageNum.value = 1
 })
 
 const imagePath = computed(() => `${styleData.imagePath}/moves/${props.move.key}/${imageSetName.value}-${imageNum.value}.jpeg`)
@@ -107,7 +99,7 @@ const titleClasses = computed(() => {
   if (props.list) {
     classes.push('text-body text-weight-bold')
   } else {
-    classes.push('text-h4')
+    classes.push('text-h5')
   }
   return classes
 })

@@ -93,7 +93,21 @@
       "description": "Leg scoop",
       "tags": [
         "kihon"
-      ]
+      ],
+      "imageSets": {
+        "front": {
+          "name": "Front",
+          "count": 3
+        },
+        "side": {
+          "name": "Side",
+          "count": 2
+        }
+      },
+      "coverImage": {
+        "set": "front",
+        "num": 2
+      }
     },
     "ashi-uke": {
       "name": "Ashi Uke",
@@ -101,7 +115,21 @@
       "description": "Leg block",
       "tags": [
         "kihon"
-      ]
+      ],
+      "imageSets": {
+        "front": {
+          "name": "Front",
+          "count": 3
+        },
+        "side": {
+          "name": "Side",
+          "count": 2
+        }
+      },
+      "coverImage": {
+        "set": "front",
+        "num": 2
+      }
     },
     "chudan-tsuki": {
       "name": "Chudan Tsuki",
@@ -109,15 +137,21 @@
       "description": "Mid level thrust",
       "tags": [
         "kihon"
-      ]
-    },
-    "otoshi-uchi": {
-      "name": "Otoshi Uchi",
-      "key": "otoshi-uchi",
-      "description": "Dropping block",
-      "tags": [
-        "kihon"
-      ]
+      ],
+      "imageSets": {
+        "front": {
+          "name": "Front",
+          "count": 2
+        },
+        "side": {
+          "name": "Side",
+          "count": 2
+        }
+      },
+      "coverImage": {
+        "set": "front",
+        "num": 1
+      }
     },
     "chudan-uke": {
       "name": "Chudan Uke",
@@ -125,7 +159,21 @@
       "description": "Outside middle block",
       "tags": [
         "kihon"
-      ]
+      ],
+      "imageSets": {
+        "front": {
+          "name": "Front",
+          "count": 3
+        },
+        "side": {
+          "name": "Side",
+          "count": 2
+        }
+      },
+      "coverImage": {
+        "set": "front",
+        "num": 2
+      }
     },
     "fukkin-no-undo": {
       "name": "Fukkin no Undo",
@@ -149,7 +197,21 @@
       "description": "Low sweep, mid thrust",
       "tags": [
         "kihon"
-      ]
+      ],
+      "imageSets": {
+        "front": {
+          "name": "Front",
+          "count": 6
+        },
+        "side": {
+          "name": "Side",
+          "count": 6
+        }
+      },
+      "coverImage": {
+        "set": "front",
+        "num": 1
+      }
     },
     "gedan-tsuki": {
       "name": "Gedan Tsuki",
@@ -157,7 +219,21 @@
       "description": "Low thrust",
       "tags": [
         "kihon"
-      ]
+      ],
+      "imageSets": {
+        "front": {
+          "name": "Front",
+          "count": 3
+        },
+        "side": {
+          "name": "Side",
+          "count": 2
+        }
+      },
+      "coverImage": {
+        "set": "front",
+        "num": 2
+      }
     },
     "gyaku-tsuki": {
       "name": "Gyaku Tsuki",
@@ -165,7 +241,21 @@
       "description": "Reverse punch",
       "tags": [
         "kihon"
-      ]
+      ],
+      "imageSets": {
+        "front": {
+          "name": "Front",
+          "count": 4
+        },
+        "side": {
+          "name": "Side",
+          "count": 4
+        }
+      },
+      "coverImage": {
+        "set": "front",
+        "num": 1
+      }
     },
     "hasami-uchi": {
       "name": "Hasami Uchi",
@@ -173,7 +263,21 @@
       "description": "Scissor strike",
       "tags": [
         "kihon"
-      ]
+      ],
+      "imageSets": {
+        "front": {
+          "name": "Front",
+          "count": 3
+        },
+        "side": {
+          "name": "Side",
+          "count": 1
+        }
+      },
+      "coverImage": {
+        "set": "front",
+        "num": 3
+      }
     },
     "hiji-kaiten": {
       "name": "Hiji Kaiten",
@@ -181,7 +285,17 @@
       "description": "Elbow rotations",
       "tags": [
         "junbi undo"
-      ]
+      ],
+      "imageSets": {
+        "front": {
+          "name": "Front",
+          "count": 2
+        }
+      },
+      "coverImage": {
+        "set": "front",
+        "num": 1
+      }
     },
     "hiza-age-no-undo": {
       "name": "Hiza Age no Undo",
@@ -189,7 +303,21 @@
       "description": "Knee raise",
       "tags": [
         "kihon"
-      ]
+      ],
+      "imageSets": {
+        "front": {
+          "name": "Front",
+          "count": 3
+        },
+        "side": {
+          "name": "Side",
+          "count": 2
+        }
+      },
+      "coverImage": {
+        "set": "front",
+        "num": 2
+      }
     },
     "hiza-ow-ryouhou-ni-hirogeru": {
       "name": "Hiza ow Ryouhou ni Hirogeru",
@@ -197,7 +325,21 @@
       "description": "Spread knees",
       "tags": [
         "kihon"
-      ]
+      ],
+      "imageSets": {
+        "front": {
+          "name": "Front",
+          "count": 1
+        },
+        "side": {
+          "name": "Side",
+          "count": 1
+        }
+      },
+      "coverImage": {
+        "set": "front",
+        "num": 1
+      }
     },
     "jodan-uke": {
       "name": "Jodan Uke",
@@ -205,7 +347,21 @@
       "description": "Rising block",
       "tags": [
         "kihon"
-      ]
+      ],
+      "imageSets": {
+        "front": {
+          "name": "Front",
+          "count": 2
+        },
+        "side": {
+          "name": "Side",
+          "count": 2
+        }
+      },
+      "coverImage": {
+        "set": "front",
+        "num": 1
+      }
     },
     "josokutei-o-tsukeru": {
       "name": "Josokutei o Tsukeru",
@@ -213,7 +369,17 @@
       "description": "Rotate on ball of foot",
       "tags": [
         "junbi undo"
-      ]
+      ],
+      "imageSets": {
+        "front": {
+          "name": "Front",
+          "count": 2
+        }
+      },
+      "coverImage": {
+        "set": "front",
+        "num": 1
+      }
     },
     "kake-uke-tsuki": {
       "name": "Kake Uke Tsuki",
@@ -237,7 +403,21 @@
       "description": "Forward Bend",
       "tags": [
         "kihon"
-      ]
+      ],
+      "imageSets": {
+        "front": {
+          "name": "Front",
+          "count": 2
+        },
+        "side": {
+          "name": "Side",
+          "count": 1
+        }
+      },
+      "coverImage": {
+        "set": "front",
+        "num": 1
+      }
     },
     "kata-no-hogushi": {
       "name": "Kata no Hogushi",
@@ -245,7 +425,21 @@
       "description": "Shoulder rotation",
       "tags": [
         "kihon"
-      ]
+      ],
+      "imageSets": {
+        "front": {
+          "name": "Front",
+          "count": 3
+        },
+        "side": {
+          "name": "Side",
+          "count": 2
+        }
+      },
+      "coverImage": {
+        "set": "front",
+        "num": 1
+      }
     },
     "kata-no-sutoretchi": {
       "name": "Kata no Sutoretchi",
@@ -253,7 +447,21 @@
       "description": "Shoulder stretch",
       "tags": [
         "kihon"
-      ]
+      ],
+      "imageSets": {
+        "front": {
+          "name": "Front",
+          "count": 3
+        },
+        "side": {
+          "name": "Side",
+          "count": 1
+        }
+      },
+      "coverImage": {
+        "set": "front",
+        "num": 2
+      }
     },
     "kobushi-no-ude-tate-fuse": {
       "name": "Kobushi no Ude Tate Fuse",
@@ -261,7 +469,21 @@
       "description": "Knuckle pushups",
       "tags": [
         "kihon"
-      ]
+      ],
+      "imageSets": {
+        "front": {
+          "name": "Front",
+          "count": 2
+        },
+        "side": {
+          "name": "Side",
+          "count": 2
+        }
+      },
+      "coverImage": {
+        "set": "side",
+        "num": 1
+      }
     },
     "koshi-no-kaiten": {
       "name": "Koshi no Kaiten",
@@ -269,7 +491,21 @@
       "description": "Trunk twist",
       "tags": [
         "kihon"
-      ]
+      ],
+      "imageSets": {
+        "front": {
+          "name": "Front",
+          "count": 4
+        },
+        "side": {
+          "name": "Side",
+          "count": 2
+        }
+      },
+      "coverImage": {
+        "set": "front",
+        "num": 1
+      }
     },
     "koshi-o-mawasu": {
       "name": "Koshi o Mawasu",
@@ -277,7 +513,17 @@
       "description": "Hip circles",
       "tags": [
         "junbi undo"
-      ]
+      ],
+      "imageSets": {
+        "front": {
+          "name": "Front",
+          "count": 2
+        }
+      },
+      "coverImage": {
+        "set": "front",
+        "num": 1
+      }
     },
     "kubi-no-undo": {
       "name": "Kubi no Undo",
@@ -285,7 +531,17 @@
       "description": "Neck twist",
       "tags": [
         "junbi undo"
-      ]
+      ],
+      "imageSets": {
+        "front": {
+          "name": "Front",
+          "count": 3
+        }
+      },
+      "coverImage": {
+        "set": "front",
+        "num": 2
+      }
     },
     "kubi-o-mawasu": {
       "name": "Kubi o Mawasu",
@@ -293,7 +549,17 @@
       "description": "Neck rotation",
       "tags": [
         "junbi undo"
-      ]
+      ],
+      "imageSets": {
+        "front": {
+          "name": "Front",
+          "count": 3
+        }
+      },
+      "coverImage": {
+        "set": "front",
+        "num": 2
+      }
     },
     "kubi-o-nobasu": {
       "name": "Kubi o Nobasu",
@@ -301,7 +567,17 @@
       "description": "Neck stretch",
       "tags": [
         "junbi undo"
-      ]
+      ],
+      "imageSets": {
+        "front": {
+          "name": "Front",
+          "count": 3
+        }
+      },
+      "coverImage": {
+        "set": "front",
+        "num": 2
+      }
     },
     "kusshin": {
       "name": "Kusshin",
@@ -309,15 +585,17 @@
       "description": "Leg stretch",
       "tags": [
         "kihon"
-      ]
-    },
-    "mae-geri-no-undo": {
-      "name": "Mae Geri no Undo",
-      "key": "mae-geri-no-undo",
-      "description": "Front kick exercise",
-      "tags": [
-        "kihon"
-      ]
+      ],
+      "imageSets": {
+        "front": {
+          "name": "Front",
+          "count": 2
+        }
+      },
+      "coverImage": {
+        "set": "front",
+        "num": 1
+      }
     },
     "mae-geri": {
       "name": "Mae Geri",
@@ -325,15 +603,43 @@
       "description": "Front Kick",
       "tags": [
         "kihon"
-      ]
+      ],
+      "imageSets": {
+        "front": {
+          "name": "Front",
+          "count": 4
+        },
+        "side": {
+          "name": "Side",
+          "count": 2
+        }
+      },
+      "coverImage": {
+        "set": "side",
+        "num": 1
+      }
     },
-    "mawashi-geri-no-undo": {
-      "name": "Mawashi Geri no Undo",
-      "key": "mawashi-geri-no-undo",
-      "description": "Roundhouse kick exercise",
+    "mae-geri-no-undo": {
+      "name": "Mae Geri no Undo",
+      "key": "mae-geri-no-undo",
+      "description": "Front kick exercise",
       "tags": [
         "kihon"
-      ]
+      ],
+      "imageSets": {
+        "front": {
+          "name": "Front",
+          "count": 1
+        },
+        "side": {
+          "name": "Side",
+          "count": 2
+        }
+      },
+      "coverImage": {
+        "set": "side",
+        "num": 1
+      }
     },
     "mawashi-geri": {
       "name": "Mawashi Geri",
@@ -341,7 +647,61 @@
       "description": "Roundhouse kick",
       "tags": [
         "kihon"
-      ]
+      ],
+      "imageSets": {
+        "front": {
+          "name": "Front",
+          "count": 4
+        },
+        "side": {
+          "name": "Side",
+          "count": 2
+        }
+      },
+      "coverImage": {
+        "set": "front",
+        "num": 2
+      }
+    },
+    "mawashi-geri-no-undo": {
+      "name": "Mawashi Geri no Undo",
+      "key": "mawashi-geri-no-undo",
+      "description": "Roundhouse kick exercise",
+      "tags": [
+        "kihon"
+      ],
+      "imageSets": {
+        "front": {
+          "name": "Front",
+          "count": 3
+        }
+      },
+      "coverImage": {
+        "set": "front",
+        "num": 2
+      }
+    },
+    "otoshi-uchi": {
+      "name": "Otoshi Uchi",
+      "key": "otoshi-uchi",
+      "description": "Dropping block",
+      "tags": [
+        "kihon"
+      ],
+      "imageSets": {
+        "front": {
+          "name": "Front",
+          "count": 3
+        },
+        "side": {
+          "name": "Side",
+          "count": 2
+        }
+      },
+      "coverImage": {
+        "set": "front",
+        "num": 2
+      }
     },
     "renzoku-tsuki": {
       "name": "Renzoku Tsuki",
@@ -349,7 +709,17 @@
       "description": "Continuous Thrust",
       "tags": [
         "kihon"
-      ]
+      ],
+      "imageSets": {
+        "front": {
+          "name": "Front",
+          "count": 3
+        }
+      },
+      "coverImage": {
+        "set": "front",
+        "num": 1
+      }
     },
     "renzoku-tsuki-geri": {
       "name": "Renzoku Tsuki Geri",
@@ -357,7 +727,17 @@
       "description": "Punch punch kick punch",
       "tags": [
         "kihon"
-      ]
+      ],
+      "imageSets": {
+        "front": {
+          "name": "Front",
+          "count": 12
+        }
+      },
+      "coverImage": {
+        "set": "front",
+        "num": 1
+      }
     },
     "shinkokyu-no-undo": {
       "name": "Shinkokyu no Undo",
@@ -365,7 +745,17 @@
       "description": "Deep breathing exercise",
       "tags": [
         "kihon"
-      ]
+      ],
+      "imageSets": {
+        "front": {
+          "name": "Front",
+          "count": 2
+        }
+      },
+      "coverImage": {
+        "set": "front",
+        "num": 2
+      }
     },
     "shuto-uchi": {
       "name": "Shuto Uchi",
@@ -373,7 +763,21 @@
       "description": "Sword hand strike",
       "tags": [
         "kihon"
-      ]
+      ],
+      "imageSets": {
+        "front": {
+          "name": "Front",
+          "count": 3
+        },
+        "side": {
+          "name": "Side",
+          "count": 2
+        }
+      },
+      "coverImage": {
+        "set": "front",
+        "num": 2
+      }
     },
     "shuto-uke": {
       "name": "Shuto Uke",
@@ -381,7 +785,21 @@
       "description": "Sword hand block",
       "tags": [
         "kihon"
-      ]
+      ],
+      "imageSets": {
+        "front": {
+          "name": "Front",
+          "count": 5
+        },
+        "side": {
+          "name": "Side",
+          "count": 4
+        }
+      },
+      "coverImage": {
+        "set": "front",
+        "num": 3
+      }
     },
     "sokuto-o-tsukeru": {
       "name": "Sokuto o Tsukeru",
@@ -389,7 +807,17 @@
       "description": "Ankle rotation",
       "tags": [
         "junbi undo"
-      ]
+      ],
+      "imageSets": {
+        "front": {
+          "name": "Front",
+          "count": 2
+        }
+      },
+      "coverImage": {
+        "set": "front",
+        "num": 1
+      }
     },
     "sukuwatto-no-undo": {
       "name": "Sukuwatto no Undo",
@@ -397,7 +825,21 @@
       "description": "Squats",
       "tags": [
         "kihon"
-      ]
+      ],
+      "imageSets": {
+        "front": {
+          "name": "Front",
+          "count": 3
+        },
+        "side": {
+          "name": "Side",
+          "count": 1
+        }
+      },
+      "coverImage": {
+        "set": "front",
+        "num": 2
+      }
     },
     "tekubi-kaiten": {
       "name": "Tekubi Kaiten",
@@ -405,7 +847,17 @@
       "description": "Wrist rotations",
       "tags": [
         "junbi undo"
-      ]
+      ],
+      "imageSets": {
+        "front": {
+          "name": "Front",
+          "count": 2
+        }
+      },
+      "coverImage": {
+        "set": "front",
+        "num": 1
+      }
     },
     "uchi-uke": {
       "name": "Uchi Uke",
@@ -413,7 +865,21 @@
       "description": "Inside block",
       "tags": [
         "kihon"
-      ]
+      ],
+      "imageSets": {
+        "front": {
+          "name": "Front",
+          "count": 3
+        },
+        "side": {
+          "name": "Side",
+          "count": 2
+        }
+      },
+      "coverImage": {
+        "set": "front",
+        "num": 2
+      }
     },
     "uke-kogeki": {
       "name": "Uke Kogeki",
@@ -421,7 +887,21 @@
       "description": "Leg sweep & thrust",
       "tags": [
         "kihon"
-      ]
+      ],
+      "imageSets": {
+        "front": {
+          "name": "Front",
+          "count": 5
+        },
+        "side": {
+          "name": "Side",
+          "count": 4
+        }
+      },
+      "coverImage": {
+        "set": "front",
+        "num": 3
+      }
     },
     "uraken": {
       "name": "Uraken",
@@ -429,7 +909,17 @@
       "description": "Double backfist",
       "tags": [
         "kihon"
-      ]
+      ],
+      "imageSets": {
+        "front": {
+          "name": "Front",
+          "count": 2
+        }
+      },
+      "coverImage": {
+        "set": "front",
+        "num": 1
+      }
     },
     "ushiro-geri-no-undo": {
       "name": "Ushiro Geri no Undo",
@@ -445,7 +935,17 @@
       "description": "Back kick",
       "tags": [
         "kihon"
-      ]
+      ],
+      "imageSets": {
+        "side": {
+          "name": "Side",
+          "count": 4
+        }
+      },
+      "coverImage": {
+        "set": "side",
+        "num": 2
+      }
     },
     "ushiro-hineri-tsuki": {
       "name": "Ushiro Hineri Tsuki",
@@ -453,7 +953,21 @@
       "description": "Back twisting punch",
       "tags": [
         "kihon"
-      ]
+      ],
+      "imageSets": {
+        "front": {
+          "name": "Front",
+          "count": 3
+        },
+        "side": {
+          "name": "Side",
+          "count": 2
+        }
+      },
+      "coverImage": {
+        "set": "side",
+        "num": 1
+      }
     },
     "yoko-geri-no-undo": {
       "name": "Yoko Geri no Undo",
@@ -461,7 +975,17 @@
       "description": "Side kick exercise",
       "tags": [
         "kihon"
-      ]
+      ],
+      "imageSets": {
+        "front": {
+          "name": "Front",
+          "count": 4
+        }
+      },
+      "coverImage": {
+        "set": "front",
+        "num": 2
+      }
     },
     "yoko-geri": {
       "name": "Yoko Geri",
@@ -469,7 +993,17 @@
       "description": "Side kick",
       "tags": [
         "kihon"
-      ]
+      ],
+      "imageSets": {
+        "front": {
+          "name": "Front",
+          "count": 4
+        }
+      },
+      "coverImage": {
+        "set": "front",
+        "num": 2
+      }
     },
     "yoko-hineri-tsuki": {
       "name": "Yoko Hineri Tsuki",
@@ -477,7 +1011,21 @@
       "description": "Side twist punch",
       "tags": [
         "kihon"
-      ]
+      ],
+      "imageSets": {
+        "front": {
+          "name": "Front",
+          "count": 3
+        },
+        "side": {
+          "name": "Side",
+          "count": 2
+        }
+      },
+      "coverImage": {
+        "set": "front",
+        "num": 2
+      }
     },
     "yon-kai-uchi": {
       "name": "Yon Kai Uchi",
@@ -485,7 +1033,21 @@
       "description": "Four strikes",
       "tags": [
         "kihon"
-      ]
+      ],
+      "imageSets": {
+        "front": {
+          "name": "Front",
+          "count": 5
+        },
+        "side": {
+          "name": "Side",
+          "count": 5
+        }
+      },
+      "coverImage": {
+        "set": "front",
+        "num": 1
+      }
     },
     "yubi-de-arukimasu": {
       "name": "Yubi de Arukimasu",
@@ -501,7 +1063,17 @@
       "description": "Toe raises",
       "tags": [
         "junbi undo"
-      ]
+      ],
+      "imageSets": {
+        "front": {
+          "name": "Front",
+          "count": 2
+        }
+      },
+      "coverImage": {
+        "set": "front",
+        "num": 1
+      }
     },
     "yubisaki-no-ude-tate-fuse": {
       "name": "Yubisaki no Ude Tate Fuse",
@@ -509,7 +1081,21 @@
       "description": "Fingertip pushups",
       "tags": [
         "kihon"
-      ]
+      ],
+      "imageSets": {
+        "front": {
+          "name": "Front",
+          "count": 4
+        },
+        "side": {
+          "name": "Side",
+          "count": 4
+        }
+      },
+      "coverImage": {
+        "set": "side",
+        "num": 1
+      }
     },
     "yohokeikin-sutorecchi": {
       "name": "Yohokeikin Sutorecchi",
@@ -517,7 +1103,17 @@
       "description": "Side bends",
       "tags": [
         "junbi undo"
-      ]
+      ],
+      "imageSets": {
+        "front": {
+          "name": "Front",
+          "count": 2
+        }
+      },
+      "coverImage": {
+        "set": "front",
+        "num": 1
+      }
     }
   },
   "kihon_renshu": [
