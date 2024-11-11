@@ -1,6 +1,15 @@
 <template>
-  <q-page column>
-    <move-info class="col-grow" :move="move" flat />
+  <q-page class="column">
+    <div v-if="!move">
+      No find :(
+    </div>
+
+    <move-info
+      v-else
+      class="col-grow"
+      :move="move"
+      flat
+    />
   </q-page>
 </template>
 

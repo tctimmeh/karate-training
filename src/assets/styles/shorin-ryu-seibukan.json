@@ -72,17 +72,20 @@
       "tags": [
         "kihon"
       ],
-      "imageSets": [
-        {
+      "imageSets": {
+        "front": {
           "name": "Front",
           "count": 3
         },
-        {
+        "side": {
           "name": "Side",
           "count": 2
         }
-      ],
-      "coverImage": "front-2"
+      },
+      "coverImage": {
+        "set": "front",
+        "num": 2
+      }
     },
     "ashi-sukui": {
       "name": "Ashi Sukui",
