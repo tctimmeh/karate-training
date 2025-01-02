@@ -9,6 +9,7 @@
     "lint": "eslint --ext .js,.vue ./",
     "test": "echo \"No test specified\" && exit 0",
     "dev": "quasar dev",
+    "mdev": "quasar dev -m capacitor",
     "build": "quasar build"
   },
   "dependencies": {

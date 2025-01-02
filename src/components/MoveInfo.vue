@@ -1,5 +1,9 @@
 <template>
-  <q-card bordered class="column" :class="{'text-center': center}">
+  <q-card
+    bordered
+    class="column"
+    :class="{'text-center': center}"
+  >
     <q-card-section>
       <div :class="titleClasses">
         {{ move.name }}
@@ -14,19 +18,25 @@
     <q-card-section
       v-if="images && move.imageSets"
       class="text-center"
-      @click.stop=""
     >
-      <q-tabs v-model="imageSetName" align="left" dense :breakpoint="0">
+      <q-tabs
+        v-model="imageSetName"
+        align="left"
+        dense
+        :breakpoint="0"
+      >
         <q-tab
           v-for="(imageSet, imageSetKey) in move.imageSets"
           :key="imageSetKey"
           :name="imageSetKey"
+          @click.stop=""
         >
           {{ imageSet.name }}
         </q-tab>
       </q-tabs>
 
       <q-carousel
+        v-if="carousel"
         v-model="imageNum"
         arrows
         infinite
@@ -37,13 +47,18 @@
         transition-prev="slide-right"
       >
         <q-carousel-slide
-          v-for="imageIdx in imageSet.count"
-          :key="imageIdx"
-          :name="imageIdx"
-        >
-          <q-img :src="imagePath" height="375px" fit="contain" :draggable="false" />
+          v-for="imageIdx in imageSet.count" :key="imageIdx" :name="imageIdx">
+          <q-img :src="imagePath(imageIdx)" height="375px" fit="contain" :draggable="false" />
         </q-carousel-slide>
       </q-carousel>
+      <div
+        v-else
+        class="row q-py-md justify-center q-gutter-md"
+      >
+        <div v-for="imageIdx in imageSet.count" :key="imageIdx">
+          <q-img :src="imagePath(imageIdx)" width="120px" :draggable="false" />
+        </div>
+      </div>
     </q-card-section>
   </q-card>
 </template>
@@ -74,11 +89,18 @@ const props = defineProps({
     required: false,
     default: true,
   },
+  carousel: {
+    type: Boolean,
+    required: false,
+    default: false,
+  },
 })
 
 const imageSetName = ref()
 const imageSet = ref()
 const imageNum = ref()
+
+const imagePath = (idx) => `${styleData.imagePath}/moves/${props.move.id}/${imageSetName.value}-${idx}.jpeg`
 
 watch(() => props.move, () => {
   imageSetName.value = props.move.coverImage?.set
@@ -90,8 +112,6 @@ watch(imageSetName, async (newSetName) => {
   imageSet.value = props.move.imageSets?.[newSetName]
   imageNum.value = 1
 })
-
-const imagePath = computed(() => `${styleData.imagePath}/moves/${props.move.key}/${imageSetName.value}-${imageNum.value}.jpeg`)
 
 const titleClasses = computed(() => {
   const classes = []

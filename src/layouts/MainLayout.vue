@@ -19,7 +19,7 @@
           stretch
           to="/"
         >
-          Karate Training
+          {{ styleName }}
         </q-btn>
 
         <q-space />
@@ -86,4 +86,5 @@ function toggleLeftDrawer() {
 }
 
 const styleLogoPath = computed(() => `${styleData.imagePath}/${styleData.info.logo}`)
+const styleName = computed(() => styleData.info.name)
 </script>

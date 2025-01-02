@@ -32,7 +32,7 @@
       </div>
     </template>
 
-    <template v-else-if="setComplete">
+    <template v-else-if="workoutComplete">
       <div class="column items-center q-gutter-xl q-pa-xl text-center">
         <div class="text-h4">
           Great Job!
@@ -54,13 +54,25 @@
     </template>
 
     <template v-else>
-      <div
-        class="move-panel self-stretch q-pa-md column"
-        @click.stop="nextMove"
-        v-touch-swipe.right="prevMove"
-        v-touch-swipe.left="nextMove"
-      >
-        <move-info :move="currentMove" class="col-grow" center />
+      <div class="move-panel column">
+        <q-linear-progress
+          instant-feedback
+          size="20px"
+          color="blue-5"
+          :value="progressPercent"
+        >
+          <div class="absolute-full flex flex-center text-caption text-dark">
+            {{ currentMoveIndex + 1 }} of {{ workout.length }}
+          </div>
+        </q-linear-progress>
+        <move-info
+          class="col"
+          :move="currentMove"
+          @click.stop="nextMove"
+          v-touch-swipe.right="prevMove"
+          v-touch-swipe.left="nextMove"
+          center
+        />
       </div>
     </template>
   </q-page>
@@ -73,26 +85,29 @@ import { useStyleStore } from 'stores/style'
 
 const styleData = useStyleStore()
 
+const workout = ref(styleData.kihonRenshu)
 const currentMoveIndex = ref(-1)
-const setComplete = ref(false)
+const workoutComplete = ref(false)
+
+const progressPercent = computed(() => (currentMoveIndex.value + 1) / workout.value.length)
 
 const currentMove = computed(() => {
   if (currentMoveIndex.value < 0) {
     return null
   }
-  const moveId = styleData.kihonRenshu[currentMoveIndex.value]
+  const moveId = workout.value[currentMoveIndex.value]
   return styleData.moves[moveId]
 })
 
 function resetQuiz() {
   currentMoveIndex.value = 0
-  setComplete.value = false
+  workoutComplete.value = false
 }
 
 function nextMove() {
   currentMoveIndex.value += 1
-  if (currentMoveIndex.value >= styleData.kihonRenshu.length) {
-    setComplete.value = true
+  if (currentMoveIndex.value >= workout.value.length) {
+    workoutComplete.value = true
   }
 }
 

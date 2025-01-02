@@ -7,11 +7,12 @@ export const useStyleStore = defineStore('style', () => {
   const sections = ref(styleData.sections)
   const moves = ref(styleData.moves)
   const dojoKun = ref(styleData.dojo_kun)
+  const tags = ref(styleData.tags)
   const kihonRenshu = ref(styleData.kihon_renshu)
 
-  const imagePath = computed(() => `/public/styles/${info.value.key}/img`)
+  const imagePath = computed(() => `/public/styles/${info.value.id}/img`)
 
   return {
-    styleData, info, sections, moves, dojoKun, kihonRenshu, imagePath,
+    styleData, info, sections, moves, dojoKun, kihonRenshu, imagePath, tags,
   }
 })
