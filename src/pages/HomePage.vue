@@ -1,5 +1,5 @@
 <template>
-  <q-page class="column q-gutter-sm q-pt-sm">
+  <q-page class="column q-gutter-sm q-pt-md">
     <q-btn
       v-for="section in styleData.sections"
       :key="section.title"

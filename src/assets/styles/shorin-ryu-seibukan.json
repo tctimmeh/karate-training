@@ -7,23 +7,18 @@
   "sections": [
     {
       "title": "Index",
-      "color": "white",
+      "color": "yellow",
       "path": "/index"
     },
     {
-      "title": "Kihon Quiz",
-      "color": "yellow",
+      "title": "Quiz",
+      "color": "orange",
       "path": "/quiz"
     },
     {
       "title": "Workouts",
-      "color": "orange",
-      "path": "/workouts"
-    },
-    {
-      "title": "Zenhin Kotai",
       "color": "green",
-      "path": "/zenshin-kotai"
+      "path": "/workouts"
     },
     {
       "title": "Kata",
@@ -65,7 +60,7 @@
   ],
   "tags": {
     "junbi": {
-      "name": "Junbi Undo",
+      "name": "Junbi",
       "color": "green"
     },
     "kihon": {
@@ -196,18 +191,10 @@
         "kihon"
       ]
     },
-    "gedan-barai-chudan-tsuki-chudan-uke": {
-      "name": "Gedan Barai Chudan Tsuki Chudan Uke",
-      "id": "gedan-barai-chudan-tsuki-chudan-uke",
-      "description": "Low sweep, mid thrust, mid block",
-      "tags": [
-        "kihon"
-      ]
-    },
     "gedan-barai-chudan-tsuki": {
-      "name": "Gedan Barai Chudan Tsuki",
+      "name": "Gedan Barai, Chudan Tsuki",
       "id": "gedan-barai-chudan-tsuki",
-      "description": "Low sweep, mid thrust",
+      "description": "Low sweep, Middle Punch",
       "tags": [
         "kihon"
       ],
@@ -424,7 +411,7 @@
     "kake-uke": {
       "name": "Kake Uke",
       "id": "kake-uke",
-      "description": "Hook block",
+      "description": "Hooking block",
       "tags": [
         "kihon"
       ]
@@ -1189,10 +1176,301 @@
     },
     "ashi-dake": {
       "name": "Ashi Dake",
+      "id": "ashi-dake",
       "description": "Just legs",
       "tags": [
         "zk"
+      ],
+      "imageSets": {
+        "front": {
+          "name": "Front",
+          "count": 3
+        }
+      },
+      "coverImage": {
+        "set": "front",
+        "num": 2
+      }
+    },
+    "oi-tsuki": {
+      "name": "Oi Tsuki",
+      "id": "oi-tsuki",
+      "description": "Lunging Punch",
+      "tags": [
+        "zk"
+      ],
+      "imageSets": {
+        "front": {
+          "name": "Front",
+          "count": 3
+        }
+      },
+      "coverImage": {
+        "set": "front",
+        "num": 2
+      }
+    },
+    "gedan-barai-chudan-tsuki-zk": {
+      "name": "Gedan Barai, Chudan Tsuki",
+      "id": "gedan-barai-chudan-tsuki-zk",
+      "description": "Low Sweep, Middle Punch",
+      "tags": [
+        "zk"
+      ],
+      "imageSets": {
+        "front": {
+          "name": "Front",
+          "count": 5
+        }
+      },
+      "coverImage": {
+        "set": "front",
+        "num": 2
+      }
+    },
+    "chudan-uke-chudan-tsuki": {
+      "name": "Chudan Uke Chudan Tsuki",
+      "id": "chudan-uke-chudan-tsuki",
+      "description": "Middle block, Middle punch",
+      "tags": [
+        "zk"
+      ],
+      "imageSets": {
+        "front": {
+          "name": "Front",
+          "count": 5
+        }
+      },
+      "coverImage": {
+        "set": "front",
+        "num": 2
+      }
+    },
+    "jodan-uke-chudan-tsuki": {
+      "name": "Jodan Uke, Chudan Tsuki",
+      "id": "jodan-uke-chudan-tsuki",
+      "description": "High block, Middle punch",
+      "tags": [
+        "zk"
+      ],
+      "imageSets": {
+        "front": {
+          "name": "Front",
+          "count": 5
+        }
+      },
+      "coverImage": {
+        "set": "front",
+        "num": 2
+      }
+    },
+    "sankai-tsuki": {
+      "name": "Sankai Tsuki",
+      "id": "sankai-tsuki",
+      "description": "Three punches",
+      "tags": [
+        "zk"
+      ],
+      "imageSets": {
+        "front": {
+          "name": "Front",
+          "count": 7
+        }
+      },
+      "coverImage": {
+        "set": "front",
+        "num": 2
+      }
+    },
+    "jodan-uke-uchi-uke-uraken-gedan-barai-chudan-tsuki": {
+      "name": "Jodan Uke, Uchi Uke, Uraken, Gedan Barai, Chudan Tsuki",
+      "id": "jodan-uke-uchi-uke-uraken-gedan-barai-chudan-tsuki",
+      "description": "High block, inside block, backfist, low sweep, middle punch",
+      "tags": [
+        "zk"
+      ],
+      "imageSets": {
+        "front": {
+          "name": "Front",
+          "count": 11
+        }
+      },
+      "coverImage": {
+        "set": "front",
+        "num": 3
+      }
+    },
+    "jodan-uke-chudan-otoshi-uke-chudan-tsuki": {
+      "name": "Jodan Uke, Chudan Otoshi Uke, Chudan Tsuki",
+      "id": "jodan-uke-chudan-otoshi-uke-chudan-tsuki",
+      "description": "High block, dropping block, middle punch",
+      "tags": [
+        "zk"
+      ],
+      "imageSets": {
+        "front": {
+          "name": "Front",
+          "count": 7
+        }
+      },
+      "coverImage": {
+        "set": "front",
+        "num": 3
+      }
+    },
+    "mae-geri-renzoku-tsuki": {
+      "name": "Mae Geri, Renzoku Tsuki",
+      "id": "mae-geri-renzoku-tsuki",
+      "description": "Front kick, punch, punch",
+      "tags": [
+        "zk"
+      ],
+      "imageSets": {
+        "front": {
+          "name": "Front",
+          "count": 1
+        },
+        "side": {
+          "name": "Side",
+          "count": 7
+        }
+      },
+      "coverImage": {
+        "set": "side",
+        "num": 1
+      }
+    },
+    "mae-geri-kake-uke": {
+      "name": "Mae Geri, Kake Uke",
+      "id": "mae-geri-kake-uke",
+      "description": "Front kick, Hooking block",
+      "tags": [
+        "zk"
+      ],
+      "imageSets": {
+        "front": {
+          "name": "Front",
+          "count": 1
+        },
+        "side": {
+          "name": "Side",
+          "count": 5
+        }
+      },
+      "coverImage": {
+        "set": "side",
+        "num": 1
+      }
+    },
+    "uke-no-renshu": {
+      "name": "Uke no Renshu",
+      "id": "uke-no-renshu",
+      "description": "Blocking Exercise",
+      "tags": [
+        "zk"
+      ],
+      "imageSets": {
+        "front": {
+          "name": "Front",
+          "count": 5
+        },
+        "side": {
+          "name": "Side",
+          "count": 5
+        }
+      },
+      "coverImage": {
+        "set": "front",
+        "num": 2
+      }
+    },
+    "fumikomi-yoko-geri": {
+      "name": "Fumikomi Yoko Geri",
+      "id": "fumikomi-yoko-geri",
+      "description": "Stepping Side Kick",
+      "tags": [
+        "zk"
+      ],
+      "imageSets": {
+        "side": {
+          "name": "Side",
+          "count": 8
+        }
+      },
+      "coverImage": {
+        "set": "side",
+        "num": 2
+      }
+    },
+    "mawashi-geri-zk": {
+      "name": "Mawashi Geri",
+      "id": "mawashi-geri-zk",
+      "description": "Roundhouse Kick",
+      "tags": [
+        "zk"
+      ],
+      "imageSets": {
+        "side": {
+          "name": "Side",
+          "count": 3
+        }
+      },
+      "coverImage": {
+        "set": "side",
+        "num": 2
+      }
+    },
+    "nukite-mikazuki-geri": {
+      "name": "Nukite, Mikazuki Geri",
+      "id": "nukite-mikazuki-geri",
+      "description": "Crescent Kick",
+      "tags": [
+        "zk"
+      ],
+      "imageSets": {
+        "front": {
+          "name": "Front",
+          "count": 5
+        }
+      },
+      "coverImage": {
+        "set": "front",
+        "num": 3
+      }
+    },
+    "kake-uke-zk": {
+      "name": "Kake Uke",
+      "id": "kake-uke-zk",
+      "description": "Hooking block",
+      "tags": [
+        "zk"
       ]
+    },
+    "tenshin-undo": {
+      "name": "Tension Exercise",
+      "id": "tenshin-undo",
+      "description": "Tension exercise",
+      "tags": [
+        "zk"
+      ],
+      "imageSets": {
+        "front": {
+          "name": "Front",
+          "count": 2
+        },
+        "side": {
+          "name": "Side",
+          "count": 2
+        },
+        "rear": {
+          "name": "Rear",
+          "count": 2
+        }
+      },
+      "coverImage": {
+        "set": "front",
+        "num": 1
+      }
     }
   },
   "workouts": [
@@ -1334,6 +1612,27 @@
         "kake-uke-tsuki",
         "fukkin-no-undo",
         "shinkokyu-no-undo"
+      ]
+    },
+    {
+      "name": "Zenshin Kotai",
+      "moves": [
+        "ashi-dake",
+        "oi-tsuki",
+        "gedan-barai-chudan-tsuki-zk",
+        "chudan-uke-chudan-tsuki",
+        "jodan-uke-chudan-tsuki",
+        "sankai-tsuki",
+        "jodan-uke-uchi-uke-uraken-gedan-barai-chudan-tsuki",
+        "jodan-uke-chudan-otoshi-uke-chudan-tsuki",
+        "mae-geri-renzoku-tsuki",
+        "mae-geri-kake-uke",
+        "uke-no-renshu",
+        "fumikomi-yoko-geri",
+        "mawashi-geri",
+        "nukite-mikazuki-geri",
+        "kake-uke-zk",
+        "tenshin-undo"
       ]
     }
   ]

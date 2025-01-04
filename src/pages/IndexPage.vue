@@ -26,7 +26,6 @@
 
 <script setup>
 import { computed } from 'vue'
-import MoveInfo from 'components/MoveInfo.vue'
 import { useStyleStore } from 'stores/style'
 
 const styleData = useStyleStore()
