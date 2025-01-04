@@ -2,33 +2,17 @@
   <q-page>
     <template v-if="currentMoveIndex == -1">
       <div
-        class="column items-center"
+        class="column items-center q-pa-lg q-gutter-md"
       >
-        <div class="text-center text-h4 q-mt-xl q-mb-md">
-          Kihon Renshu
-        </div>
-
-        <div class="q-mb-lg text-body2">
-          <div>
-            First learn the forms and movements of karate
-          </div>
-          <div class="text-right">
-          - Chotoku Kyan
-          </div>
-        </div>
-
         <q-btn
-          @click="resetQuiz"
-          color="primary"
-          size="xl"
-          push
+          v-for="workout in workouts"
+          :key="workout.name"
+          class="self-stretch"
+          @click="startWorkout(workout)"
+          size="lg"
         >
-          Begin
+          {{ workout.name }}
         </q-btn>
-
-        <div class="text-center q-mt-xl text-body2 text-weight-light">
-          Execute all junbi undo and kihon renshu from start to finish.
-        </div>
       </div>
     </template>
 
@@ -57,12 +41,12 @@
       <div class="move-panel column">
         <q-linear-progress
           instant-feedback
-          size="20px"
-          color="blue-5"
+          size="24px"
+          color="cyan-3"
           :value="progressPercent"
         >
-          <div class="absolute-full flex flex-center text-caption text-dark">
-            {{ currentMoveIndex + 1 }} of {{ workout.length }}
+          <div class="absolute-full flex flex-center text-subtitle2 text-dark">
+            {{ currentMoveIndex + 1 }} of {{ moves.length }}
           </div>
         </q-linear-progress>
         <move-info
@@ -85,28 +69,30 @@ import { useStyleStore } from 'stores/style'
 
 const styleData = useStyleStore()
 
-const workout = ref(styleData.kihonRenshu)
+const workouts = ref(styleData.workouts)
+const moves = ref(null)
 const currentMoveIndex = ref(-1)
 const workoutComplete = ref(false)
 
-const progressPercent = computed(() => (currentMoveIndex.value + 1) / workout.value.length)
+const progressPercent = computed(() => (currentMoveIndex.value + 1) / moves.value.length)
 
 const currentMove = computed(() => {
   if (currentMoveIndex.value < 0) {
     return null
   }
-  const moveId = workout.value[currentMoveIndex.value]
+  const moveId = moves.value[currentMoveIndex.value]
   return styleData.moves[moveId]
 })
 
-function resetQuiz() {
+function startWorkout(newWorkout) {
+  moves.value = newWorkout.moves
   currentMoveIndex.value = 0
   workoutComplete.value = false
 }
 
 function nextMove() {
   currentMoveIndex.value += 1
-  if (currentMoveIndex.value >= workout.value.length) {
+  if (currentMoveIndex.value >= moves.value.length) {
     workoutComplete.value = true
   }
 }
